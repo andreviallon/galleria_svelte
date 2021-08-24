@@ -1,7 +1,8 @@
-<script>
-	export let name = 'galleria';
+<script lang="ts">
+	import Header from './Header.svelte';
+	let isShowingSlideShow = false;
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
+	<Header isShowingSlideShow={isShowingSlideShow}></Header>
 </main>
