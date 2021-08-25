@@ -1,9 +1,6 @@
 <script lang="ts">
   let logo = 'images/logo.svg';
   export let isShowingSlideShow = false;
-
-  console.log('isShowingSlideShow', isShowingSlideShow);
-  
 </script>
 
 <div class="header">
