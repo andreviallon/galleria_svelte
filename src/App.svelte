@@ -8,3 +8,9 @@
 	<Header isShowingSlideShow={isShowingSlideShow}></Header>
 	<Gallery />
 </main>
+
+<style>
+	main {
+		margin: 2rem;
+	}
+</style>
