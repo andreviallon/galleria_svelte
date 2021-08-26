@@ -40,15 +40,6 @@
   .painting-container:hover > .painting-img-holder {
     transform: scale(1.15);
   }
-/* 
-  .thumbnail {
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 190px;
-  } */
 
   .painting-info {
     display: flex;
