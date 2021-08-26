@@ -6,7 +6,7 @@
 <div class="grid">
   {#each paintings as painting}
     <div class="painting-container">
-      <div class="painting-img-holder" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url({painting.images.hero.small})"></div>
+      <div class="painting-img-holder" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url({painting.images.gallery})"></div>
       <div class="painting-info">
         <p class="name">{painting.name}</p>
         <p class="artist">{painting.artist.name}</p>
@@ -25,7 +25,7 @@
   .painting-container {
     cursor: pointer;
     width: 100%;
-    height: 200px;
+    height: 300px;
     overflow: hidden;
     position: relative;
   }
