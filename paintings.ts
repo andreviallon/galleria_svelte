@@ -1,6 +1,4 @@
-import { Painting } from "./models/painting";
-
-export const paintings: Painting[] = [
+export const paintings = [
   {
     name: "Starry Night",
     year: 1889,
