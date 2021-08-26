@@ -10,17 +10,27 @@
     {:else}<a href="/" class="exit">Start Slideshow</a>
   {/if}
 </div>
+<hr />
 
 <style>
   .header {
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
   }
   img {
     width: 8rem;
   }
   .exit {
     text-transform: uppercase;
+    color: #7D7D7D;
+    letter-spacing: 2.5px;
+    display: flex;
+    align-items: center;
+  }
+
+  hr {
+    color: #E5E5E5;
+    margin: 2rem 0;
+    border-bottom: 0;
   }
 </style>
