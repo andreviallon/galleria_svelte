@@ -18,9 +18,27 @@
 <style>
   .grid {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 2rem;
   }
+
+  @media only screen and (max-width: 1600px) {
+      .grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+  }
+  
+  @media only screen and (max-width: 1000px) {
+      .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+  }
+
+  @media only screen and (max-width: 600px) {
+      .grid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+      }
+  } 
 
   .painting-container {
     cursor: pointer;
