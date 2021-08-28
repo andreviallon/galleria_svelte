@@ -1,5 +1,6 @@
 export const paintings = [
   {
+    slug: "starry-night",
     name: "Starry Night",
     year: 1889,
     description:
@@ -19,6 +20,7 @@ export const paintings = [
     },
   },
   {
+    slug: "girl-with-a-pearl-earring",
     name: "Girl with a Pearl Earring",
     year: 1665,
     description:
@@ -38,6 +40,7 @@ export const paintings = [
     },
   },
   {
+    slug: "guernica",
     name: "Guernica",
     year: 1937,
     description:
@@ -57,6 +60,7 @@ export const paintings = [
     },
   },
   {
+    slug: "penitent-magdalene",
     name: "Penitent Magdalene",
     year: 1625,
     description:
@@ -77,6 +81,7 @@ export const paintings = [
     },
   },
   {
+    slug: "the-storm-on-the-sea-of-galilee",
     name: "The Storm on the Sea of Galilee",
     year: 1633,
     description:
@@ -96,6 +101,7 @@ export const paintings = [
     },
   },
   {
+    slug: "the-great-wave-off-kanagawa",
     name: "The Great Wave off Kanagawa",
     year: 1831,
     description:
@@ -115,6 +121,7 @@ export const paintings = [
     },
   },
   {
+    slug: "van-gogh-self-portrait",
     name: "Van Gogh Self-portrait",
     year: 1889,
     description:
@@ -134,6 +141,7 @@ export const paintings = [
     },
   },
   {
+    slug: "the-sleeping-gypsy",
     name: "The Sleeping Gypsy",
     year: 1897,
     description:
@@ -153,6 +161,7 @@ export const paintings = [
     },
   },
   {
+    slug: "lady-with-an-ermine",
     name: "Lady with an Ermine",
     year: 1489,
     description:
@@ -172,6 +181,7 @@ export const paintings = [
     },
   },
   {
+    slug: "the-night-cafe",
     name: "The Night Café",
     year: 1888,
     description:
@@ -191,6 +201,7 @@ export const paintings = [
     },
   },
   {
+    slug: "the-basket-of-apples",
     name: "The Basket of Apples",
     year: 1893,
     description:
@@ -210,6 +221,7 @@ export const paintings = [
     },
   },
   {
+    slug: "the-boy-in-the-red-vest",
     name: "The Boy in the Red Vest",
     year: 1889,
     description:
@@ -229,6 +241,7 @@ export const paintings = [
     },
   },
   {
+    slug: "arnolfini-portrait",
     name: "Arnolfini Portrait",
     year: 1434,
     description:
@@ -248,6 +261,7 @@ export const paintings = [
     },
   },
   {
+    slug: "mona-lisa",
     name: "Mona Lisa",
     year: 1503,
     description:
@@ -267,6 +281,7 @@ export const paintings = [
     },
   },
   {
+    slug: "the-swing",
     name: "The Swing",
     year: 1767,
     description:
